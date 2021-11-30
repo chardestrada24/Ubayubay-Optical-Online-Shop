@@ -1,0 +1,128 @@
+{
+    "apiVersion": "1",
+    "name": "services-section/services",
+    "title": "Services Section",
+    "description": "Services section for web page.",
+    "category": "widgets",
+    "keywords": [
+        "our services",
+        "services template",
+        "services section"
+    ],
+    "textdomain": "services-section",
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": ""
+        },
+        "cId": {
+            "type": "string",
+            "default": ""
+        },
+        "layout": {
+            "type": "string",
+            "default": "default"
+        },
+        "columns": {
+            "type": "object",
+            "default": {
+                "desktop": 3,
+                "tablet": 2,
+                "mobile": 1
+            }
+        },
+        "columnGap": {
+            "type": "string",
+            "default": "30px"
+        },
+        "rowGap": {
+            "type": "string",
+            "default": "30px"
+        },
+        "background": {
+            "type": "object",
+            "default": {
+                "color": "#0000"
+            }
+        },
+        "textAlign": {
+            "type": "string",
+            "default": "left"
+        },
+        "itemHeight": {
+            "type": "string",
+            "default": "375px"
+        },
+        "itemPadding": {
+            "type": "object",
+            "default": {
+                "top": "50px",
+                "right": "30px",
+                "bottom": "50px",
+                "left": "50px"
+            }
+        },
+        "itemShadow": {
+            "type": "object",
+            "default": {
+                "blur": "20px",
+                "color": "#0000001a"
+            }
+        },
+        "itemBorder": {
+            "type": "object",
+            "default": {
+                "radius": "15px"
+            }
+        },
+        "iconPadding": {
+            "type": "object",
+            "default": {
+                "bottom": "10px"
+            }
+        },
+        "iconMargin": {
+            "type": "object",
+            "default": {
+                "bottom": "20px"
+            }
+        },
+        "titleTypo": {
+            "type": "object",
+            "default": {
+                "fontSize": 23
+            }
+        },
+        "titleMargin": {
+            "type": "object",
+            "default": {
+                "bottom": "30px"
+            }
+        },
+        "descTypo": {
+            "type": "object",
+            "default": {
+                "fontSize": 16
+            }
+        }
+    },
+    "supports": {
+        "align": [
+            "wide",
+            "full"
+        ],
+        "html": false
+    },
+    "example": {
+        "attributes": {
+            "preview": true,
+            "columns": {
+                "desktop": 1,
+                "tablet": 1,
+                "mobile": 1
+            }
+        }
+    },
+    "editorScript": "file:./dist/editor.js",
+    "style": "file:./dist/style.css"
+}

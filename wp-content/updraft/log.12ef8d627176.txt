@@ -1,0 +1,111 @@
+0000.078 () Opened log file at time: Sat, 27 Nov 2021 02:26:30 +0000 on http://localhost/ubayubay-optical-online-shop
+0000.079 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.63 WP: 5.8.2 PHP: 7.3.27 (apache2handler, Windows NT RICHARD 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.17-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.3.27 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 33.1M | 6M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.080 () Free space on disk containing Updraft's temporary directory: 393782.2 MB
+0000.177 () Restore setup, now closing connection and starting restore over AJAX.
+0000.044 () Opened log file at time: Sat, 27 Nov 2021 02:26:31 +0000 on http://localhost/ubayubay-optical-online-shop
+0000.045 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.63 WP: 5.8.2 PHP: 7.3.27 (apache2handler, Windows NT RICHARD 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.17-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.3.27 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 31.4M | 6M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.045 () Free space on disk containing Updraft's temporary directory: 393782.2 MB
+0000.067 () Ensuring WP_Filesystem is setup for a restore
+0000.068 () WP_Filesystem is setup and ready for a restore
+0000.102 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.111 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.161 () Entity: db
+0000.161 () restore_backup(backup_file=backup_2021-11-24-0220_Ubayubay_Optical_Online_Shop_d0734bd00785-db.gz, type=db, info=a:0:{}, last_one=)
+0000.162 () Unpacking backup... (backup_2021-11-24-0220_Ubayubay_Optical_Online_Shop_d0734bd00785-db.gz, 0.2 Mb)
+0000.165 () Database successfully unpacked
+0000.166 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.173 () Using direct MySQL access; value of use_mysqli is: 1
+0000.173 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0001.089 () Max packet size: 32 MB
+0001.089 () Entering maintenance mode
+0001.089 () Enabling Maintenance mode&#8230;
+0001.580 () Backup of: http://localhost/ubayubay-optical-online-shop
+0001.583 () Content URL: http://localhost/ubayubay-optical-online-shop/wp-content
+0001.584 () Uploads URL: http://localhost/ubayubay-optical-online-shop/wp-content/uploads
+0001.584 () Old table prefix: wp_
+0001.585 () Site information: multisite=0
+0001.585 () Site information: sql_mode=NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0001.589 () New table prefix: 96_
+0001.770 () Processing table (InnoDB): wp_options - will restore as: 96_options
+0002.664 () Atomic restore: dropping original table (wp_options)
+0002.982 () Atomic restore: renaming new table (96_options) to final table name (wp_options)
+0003.204 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0003.351 () Processing table (InnoDB): wp_users - will restore as: 96_users
+0003.717 () Atomic restore: dropping original table (wp_users)
+0004.157 () Atomic restore: renaming new table (96_users) to final table name (wp_users)
+0004.346 () Processing table (InnoDB): wp_usermeta - will restore as: 96_usermeta
+0004.651 () Atomic restore: dropping original table (wp_usermeta)
+0004.810 () Atomic restore: renaming new table (96_usermeta) to final table name (wp_usermeta)
+0004.962 () Processing table (InnoDB): wp_commentmeta - will restore as: 96_commentmeta
+0005.253 () Atomic restore: dropping original table (wp_commentmeta)
+0005.373 () Atomic restore: renaming new table (96_commentmeta) to final table name (wp_commentmeta)
+0005.534 () Processing table (InnoDB): wp_comments - will restore as: 96_comments
+0005.866 () Atomic restore: dropping original table (wp_comments)
+0005.995 () Atomic restore: renaming new table (96_comments) to final table name (wp_comments)
+0006.428 () Processing table (InnoDB): wp_links - will restore as: 96_links
+0006.690 () Atomic restore: dropping original table (wp_links)
+0006.859 () Atomic restore: renaming new table (96_links) to final table name (wp_links)
+0007.021 () Processing table (InnoDB): wp_postmeta - will restore as: 96_postmeta
+0008.117 () Atomic restore: dropping original table (wp_postmeta)
+0008.296 () Atomic restore: renaming new table (96_postmeta) to final table name (wp_postmeta)
+0008.466 () Processing table (InnoDB): wp_posts - will restore as: 96_posts
+0008.857 () Atomic restore: dropping original table (wp_posts)
+0008.978 () Atomic restore: renaming new table (96_posts) to final table name (wp_posts)
+0009.161 () Processing table (InnoDB): wp_term_relationships - will restore as: 96_term_relationships
+0009.442 () Atomic restore: dropping original table (wp_term_relationships)
+0009.622 () Atomic restore: renaming new table (96_term_relationships) to final table name (wp_term_relationships)
+0009.803 () Processing table (InnoDB): wp_term_taxonomy - will restore as: 96_term_taxonomy
+0010.557 () Atomic restore: dropping original table (wp_term_taxonomy)
+0010.736 () Atomic restore: renaming new table (96_term_taxonomy) to final table name (wp_term_taxonomy)
+0010.938 () Processing table (InnoDB): wp_termmeta - will restore as: 96_termmeta
+0011.208 () Atomic restore: dropping original table (wp_termmeta)
+0011.449 () Atomic restore: renaming new table (96_termmeta) to final table name (wp_termmeta)
+0012.062 () Processing table (InnoDB): wp_terms - will restore as: 96_terms
+0012.393 () Unlocking database and leaving maintenance mode
+0012.394 () Disabling Maintenance mode&#8230;
+0012.394 () Atomic restore: dropping original table (wp_terms)
+0012.504 () Atomic restore: renaming new table (96_terms) to final table name (wp_terms)
+0012.665 () Finished: lines processed: 42 in 12.49 seconds
+0012.667 () Cleaning up rubbish...
+0012.825 () Entity: plugins
+0012.825 () restore_backup(backup_file=backup_2021-11-24-0220_Ubayubay_Optical_Online_Shop_d0734bd00785-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:63:"D:\xampp\htdocs\Ubayubay-Optical-Online-Shop/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0012.826 () Unpacking backup... (backup_2021-11-24-0220_Ubayubay_Optical_Online_Shop_d0734bd00785-plugins.zip, 6.7 MB)
+0012.833 () Unzipping backup_2021-11-24-0220_Ubayubay_Optical_Online_Shop_d0734bd00785-plugins.zip to D:/xampp/htdocs/Ubayubay-Optical-Online-Shop/wp-content/upgrade/51ee3778/ using UpdraftPlus_ZipArchive, starting index 0
+0014.023 () Unzip progress: 1002 out of 1648 files (19.6 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Cache/ClosureCacheAdapter.php)
+0016.280 () Unzip progress: 1648 out of 1648 files (22.8 MB, plugins/wpcat2tag-importer/wpcat2tag-importer.php)
+0016.282 () Moving old data: filesystem method / updraft_dir is potentially possible
+0016.282 () Moving old data: can potentially use wp_filesystem method / -old
+0016.282 () Moving old data out of the way...
+0016.531 () Top-level entities being moved: akismet, hello.php, index.php, rss-importer, updraftplus, wpcat2tag-importer
+0016.551 () Moving unpacked backup into place...
+0016.885 () Top-level entities being moved: akismet, hello.php, index.php, rss-importer, updraftplus, wpcat2tag-importer
+0016.922 () Cleaning up rubbish...
+0017.020 () Entity: themes
+0017.020 () restore_backup(backup_file=backup_2021-11-24-0220_Ubayubay_Optical_Online_Shop_d0734bd00785-themes.zip, type=themes, info=a:2:{s:4:"path";s:62:"D:\xampp\htdocs\Ubayubay-Optical-Online-Shop/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0017.021 () Unpacking backup... (backup_2021-11-24-0220_Ubayubay_Optical_Online_Shop_d0734bd00785-themes.zip, 4.1 MB)
+0017.021 () Unzipping backup_2021-11-24-0220_Ubayubay_Optical_Online_Shop_d0734bd00785-themes.zip to D:/xampp/htdocs/Ubayubay-Optical-Online-Shop/wp-content/upgrade/5b8cfd2e/ using UpdraftPlus_ZipArchive, starting index 0
+0018.440 () Unzip progress: 445 out of 445 files (6.6 MB, themes/twentytwentyone/template-parts/post/author-bio.php)
+0018.444 () Moving old data: filesystem method / updraft_dir is potentially possible
+0018.444 () Moving old data: can potentially use wp_filesystem method / -old
+0018.444 () Moving old data out of the way...
+0018.484 () Top-level entities being moved: index.php, twentynineteen, twentytwenty, twentytwentyone
+0018.703 () Moving unpacked backup into place...
+0018.793 () Top-level entities being moved: index.php, twentynineteen, twentytwenty, twentytwentyone
+0018.815 () Cleaning up rubbish...
+0019.183 () Entity: uploads
+0019.183 () restore_backup(backup_file=backup_2021-11-24-0220_Ubayubay_Optical_Online_Shop_d0734bd00785-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:63:"D:\xampp\htdocs\Ubayubay-Optical-Online-Shop/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0019.183 () Unpacking backup... (backup_2021-11-24-0220_Ubayubay_Optical_Online_Shop_d0734bd00785-uploads.zip, 0 MB)
+0019.184 () Unzipping backup_2021-11-24-0220_Ubayubay_Optical_Online_Shop_d0734bd00785-uploads.zip to D:/xampp/htdocs/Ubayubay-Optical-Online-Shop/wp-content/upgrade/7a629ff2/ using UpdraftPlus_ZipArchive, starting index 0
+0019.186 () Moving old data: filesystem method / updraft_dir is potentially possible
+0019.186 () Moving old data: can potentially use wp_filesystem method / -old
+0019.186 () Moving old data out of the way...
+0019.187 () Moving unpacked backup into place...
+0019.188 () Cleaning up rubbish...
+0019.304 () Entity: others
+0019.304 () restore_backup(backup_file=backup_2021-11-24-0220_Ubayubay_Optical_Online_Shop_d0734bd00785-others.zip, type=others, info=a:2:{s:4:"path";s:55:"D:\xampp\htdocs\Ubayubay-Optical-Online-Shop/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0019.305 () Unpacking backup... (backup_2021-11-24-0220_Ubayubay_Optical_Online_Shop_d0734bd00785-others.zip, 0 MB)
+0019.307 () Unzipping backup_2021-11-24-0220_Ubayubay_Optical_Online_Shop_d0734bd00785-others.zip to D:/xampp/htdocs/Ubayubay-Optical-Online-Shop/wp-content/upgrade/b5be2a6b/ using UpdraftPlus_ZipArchive, starting index 0
+0019.334 () Unzip progress: 1 out of 1 files (28 B, index.php)
+0019.337 () Cleaning up rubbish...
+0019.500 () Restore successful!
+0019.500 () Restore successful

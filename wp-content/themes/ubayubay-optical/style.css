@@ -1,0 +1,65 @@
+/*!
+Theme Name:         Ubayubay Optical
+Template:           easy-store
+Theme URI:          https://mysterythemes.com/wp-themes/easy-store
+Author:             Mystery Themes
+Author URI:         https://mysterythemes.com/
+Description:        Easy Store is a beautifully designed e-commerce theme fully compatible with the most popular WooCommerce plugin. The theme comes with a clean and elegant design and developer friendly. It is fully responsive, translation ready, SEO friendly and compatible with WooCommerce, YITH WooCommerce Wishlist, and popular plugin. Use this theme for your e-commerce website, you will feel the best ever experience. Get free support at https://mysterythemes.com/support/forum/themes/free-themes/ and check the demo at https://demo.mysterythemes.com/easy-store-demos/
+Version:            1.1.3
+Requires at least:  4.7
+Tested up to:       5.5
+Requires PHP:       5.2.4
+License:            GNU General Public License v3 or later
+License URI:        http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain:        easy-store
+Tags:               e-commerce, food-and-drink, entertainment, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-logo, custom-menu, footer-widgets, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Easy Store is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+Reset
+--------------------------------------------------------------*/
+.mt-container {
+    width: 1350px;
+}
+.home div#secondary{
+    display: none;
+}
+.es-image-holder img {
+    width: 100%;
+}
+#primary {
+    float: none;
+    width: 100%;
+}
+.blog #primary, .post-template-default #primary  {
+    float: left;
+    width: 70%;
+}
+.ea-bootstrap h3, .ea-bootstrap small, .ea-bootstrap label, .ea-bootstrap table td, .ea-bootstrap table tr, .ea-bootstrap button, .ea-bootstrap span  {
+    font-family: 'Poppins', sans-serif !important;
+}
+.ea-bootstrap label#gdpr-error {
+    padding-left: 0;
+}
+.ea-bootstrap .ea-form-v2 {
+    max-width: 100% !important;
+}
+.ea-bootstrap  .col-sm-12.ea-actions-group {
+    justify-content: left !important;
+    padding-left: 0;
+    margin-top: 18px;
+}
+button.ea-btn.ea-cancel.btn.btn-default {
+    display: none;
+}
+button#evf-submit-395 {
+    background: #0088ff;
+}

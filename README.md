@@ -1,6 +1,13 @@
 # Ubayubay-Optical-Online-Shop
 Group 2: MIT 542 Ecommerce Project
 
+#### Team Members
+- Leonie Abilay-Cajes
+- Geraldine Blanco
+- JC Vanny Mill
+- Richard Estrada
+- Liezel Rodrigo
+
 #### Local Development
 1. Install Xammp: https://www.apachefriends.org/index.html
 2. Install Git: https://git-scm.com/
